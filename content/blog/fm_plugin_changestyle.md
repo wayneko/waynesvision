@@ -13,14 +13,14 @@ url = "/2016/04/05/fm-plugin-changestyles"
 
 +++
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
-<img src="http://h.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=cda076826a224f4a5399771739c7ab23/94cad1c8a786c9170065529dce3d70cf3bc7572b.jpg" width='400'>
+<img src="https://raw.githubusercontent.com/wayneko/images/master/201604/FM_Logo.png" width='400'>
 </div>
 
 # 前言
 
 使用 FrameMaker 写作的小朋友经常会有这样的需求：一段文本已经应用了某种段落标签（Paragraph Tag）或字符标签（Character Tag），现在要改成另一种段落标签或字符标签。
 
-例如，原来有个二级标题，段落标签是 _h2_，现在这个二级标题要降为三级标题，需要应用段落标签 _h3_。我只需要将光标放在二级标题之中，然后单击 Paragraph Tag Catalog（段落标签目录）面板中的 _h3_ 标签就行了。又如，原来有一个词语应用了斜体字符标签，现在要改成粗体，只需要选中这个词语，然后在 Character Tag Catalog（字符标签目录）面板中单击粗体对应的字符标签即可。
+例如，原来有个二级标题，段落标签是 *h2*，现在这个二级标题要降为三级标题，需要应用段落标签 *h3*。我只需要将光标放在二级标题之中，然后单击 Paragraph Tag Catalog（段落标签目录）面板中的 *h3* 标签就行了。又如，原来有一个词语应用了斜体字符标签，现在要改成粗体，只需要选中这个词语，然后在 Character Tag Catalog（字符标签目录）面板中单击粗体对应的字符标签即可。
 
 现在问题来了，如果我要更改标签的段落或词语是几十个甚至上百个呢？当对一批旧文档应用新模板时，这是一个典型的需求。手动逐一更改显然是让人无法接受的。但版本 11 及以前的 FrameMaker 并没有批量更改标签的功能。幸运的是，我们可以利用一款 FrameMaker 插件来完成这项工作，这款插件的名字叫做 ChangeStyles。
 
@@ -31,7 +31,7 @@ url = "/2016/04/05/fm-plugin-changestyles"
 2. 解压 ChangeStyles2.zip 到当前位置。  
    解压后出现名为 ChangeStyles2 的文件夹。
 3. 将文件夹 ChangeStyles2 中的 ChangeStyleMenu.jsx 和子文件夹 ChangeStyle 拷贝到以下文件夹：  
-   _C:\Program Files (x86)_\Adobe\AdobeFrameMaker11\startup（将斜体部分替换为你电脑上的路径）
+   *C:\Program Files (x86)*\Adobe\AdobeFrameMaker11\startup（将斜体部分替换为你电脑上的路径）
 4. 安装完毕。
 
 # 验证安装结果
@@ -103,8 +103,8 @@ url = "/2016/04/05/fm-plugin-changestyles"
 
 [ChangeStylesInstaller]: http://pan.baidu.com/s/1jInOy7W
 [FM_Menu_ChangeStyles]: http://c.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=cc7e26639752982201333dc7e7fa40ba/6609c93d70cf3bc71560d748d600baa1cd112a35.jpg
-[FM_DB_ChangeStyles]: http://e.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=fc3526b0ac18972ba73a04ced6fd40f8/342ac65c10385343d7d19d859413b07eca808873.jpg
-[FM_Sample_Document]: http://f.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=157f5d9a0bf3d7ca08f63b72c22f8578/3ac79f3df8dcd10037fce285758b4710b9122f35.jpg
+[FM_DB_ChangeStyles]: https://raw.githubusercontent.com/wayneko/images/master/201604/FM_DB_ChangeStyles.png
+[FM_Sample_Document]: https://raw.githubusercontent.com/wayneko/images/master/201604/FM_Sample_Document.png
 [FM_EG_Find]: http://e.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=144d15bd2af5e0feea188d056c500fd9/9f2f070828381f300d76970dae014c086e06f023.jpg
 [FM_EG_Change]: http://d.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=a982e285758b4710ca2ff9ccf3fef88c/6a63f6246b600c339467c46c1d4c510fd9f9a173.jpg
 [FM_M_AlertMessage]: http://d.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=7945ff820e24ab18e416e53705caddbc/e850352ac65c10387860d466b5119313b07e8973.jpg

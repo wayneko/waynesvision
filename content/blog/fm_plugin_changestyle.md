@@ -21,11 +21,13 @@ url = "/2016/04/05/fm-plugin-changestyles"
 [FM_DB_ChangeStyles_CharStyle]: http://d.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=48026056d262853596e0d621a0df4db7/728da9773912b31b6303d78d8118367adab4e123.jpg
 [FM_EG_Find_Char]: http://b.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=a7ca767a3a6d55fbc1c672265d12743b/4034970a304e251f1497fe5ca086c9177f3e5335.jpg
 [FM_EG_Change_Char]: http://f.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=215541921a950a7b71354ac43ae159a8/48540923dd54564eff05fe9db4de9c82d1584f35.jpg
-[FM_Sample_Document_Updated5]: http://g.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=71c5b687cffcc3ceb0c0cd37a275edf9/0d338744ebf81a4c67dad66cd02a6059242da6ae.jpg
-
+[FM_Sample_Document_Updated5]: https://raw.githubusercontent.com/wayneko/images/master/201604/FM_Sample_Document_Updated5.png
 # 前言
 
 使用 FrameMaker 写作的小朋友经常会有这样的需求：一段文本已经应用了某种段落标签（Paragraph Tag）或字符标签（Character Tag），现在要改成另一种段落标签或字符标签。
+
+测试图片
+![Image of Sample Document after 5th Update][FM_Sample_Document_Updated5]
 
 例如，原来有个二级标题，段落标签是 *h2* ，现在这个二级标题要降为三级标题，需要应用段落标签 *h3* 。我只需要将光标放在二级标题之中，然后单击 Paragraph Tag Catalog（段落标签目录）面板中的 *h3* 标签就行了。又如，原来有一个词语应用了斜体字符标签，现在要改成粗体，只需要选中这个词语，然后在 Character Tag Catalog（字符标签目录）面板中单击粗体对应的字符标签即可。
 

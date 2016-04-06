@@ -1,5 +1,6 @@
 baseurl = "http://www.waynesvision.com/"
 languageCode = "zh-CN"
+hasCJKLanguage = true
 title = "威型視界"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true

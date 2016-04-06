@@ -12,15 +12,11 @@ type = "post"
 url = "/2016/04/05/fm-plugin-changestyles"
 
 +++
-<div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
-<img src="https://raw.githubusercontent.com/wayneko/images/master/201604/FM_Logo.png" width='400'>
-</div>
-
 # 前言
 
 使用 FrameMaker 写作的小朋友经常会有这样的需求：一段文本已经应用了某种段落标签（Paragraph Tag）或字符标签（Character Tag），现在要改成另一种段落标签或字符标签。
 
-例如，原来有个二级标题，段落标签是 *h2*，现在这个二级标题要降为三级标题，需要应用段落标签 *h3*。我只需要将光标放在二级标题之中，然后单击 Paragraph Tag Catalog（段落标签目录）面板中的 *h3* 标签就行了。又如，原来有一个词语应用了斜体字符标签，现在要改成粗体，只需要选中这个词语，然后在 Character Tag Catalog（字符标签目录）面板中单击粗体对应的字符标签即可。
+例如，原来有个二级标题，段落标签是 *h2* ，现在这个二级标题要降为三级标题，需要应用段落标签 *h3*.。我只需要将光标放在二级标题之中，然后单击 Paragraph Tag Catalog（段落标签目录）面板中的 *h3* 标签就行了。又如，原来有一个词语应用了斜体字符标签，现在要改成粗体，只需要选中这个词语，然后在 Character Tag Catalog（字符标签目录）面板中单击粗体对应的字符标签即可。
 
 现在问题来了，如果我要更改标签的段落或词语是几十个甚至上百个呢？当对一批旧文档应用新模板时，这是一个典型的需求。手动逐一更改显然是让人无法接受的。但版本 11 及以前的 FrameMaker 并没有批量更改标签的功能。幸运的是，我们可以利用一款 FrameMaker 插件来完成这项工作，这款插件的名字叫做 ChangeStyles。
 
@@ -101,6 +97,9 @@ url = "/2016/04/05/fm-plugin-changestyles"
 * 在打开的文件中使用 Change Styles 时，作用范围是当前文件。在打开的书籍使用 Change Styles 时，作用范围是当前书籍中的所有文件。
 * 当在书籍中使用 Change Styles，请注意，对话框的 **Find** 下拉菜单中可选的所有标签取自书籍中第一个文件，因此，我们要确保书籍中的第一个文件包含所有需要用到的标签。此外，**Find** 下拉菜单中的标签顺序并非按字母排序，而是按照标签在第一个文件中出现的先后顺序排序的，因此，为了方便查找，建议工作时新建一个示例文件并添加到书籍最上方，该示例文件中含有依次应用了各种标签的示例文本。
 
+测试图片
+![Image of Sample Document after 5th Update][FM_Sample_Document_Updated5]
+
 [ChangeStylesInstaller]: http://pan.baidu.com/s/1jInOy7W
 [FM_Menu_ChangeStyles]: http://c.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=cc7e26639752982201333dc7e7fa40ba/6609c93d70cf3bc71560d748d600baa1cd112a35.jpg
 [FM_DB_ChangeStyles]: https://raw.githubusercontent.com/wayneko/images/master/201604/FM_DB_ChangeStyles.png
@@ -115,3 +114,4 @@ url = "/2016/04/05/fm-plugin-changestyles"
 [FM_DB_ChangeStyles_CharStyle]: http://d.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=48026056d262853596e0d621a0df4db7/728da9773912b31b6303d78d8118367adab4e123.jpg
 [FM_EG_Find_Char]: http://b.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=a7ca767a3a6d55fbc1c672265d12743b/4034970a304e251f1497fe5ca086c9177f3e5335.jpg
 [FM_EG_Change_Char]: http://f.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=215541921a950a7b71354ac43ae159a8/48540923dd54564eff05fe9db4de9c82d1584f35.jpg
+[FM_Sample_Document_Updated5]: http://g.picphotos.baidu.com/album/s%3D1400%3Bq%3D90/sign=71c5b687cffcc3ceb0c0cd37a275edf9/0d338744ebf81a4c67dad66cd02a6059242da6ae.jpg

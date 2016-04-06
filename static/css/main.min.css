@@ -2509,6 +2509,9 @@ article.post footer .stats,article.post header .meta p,article.post header .meta
 
 article.post h2,article.post h3,article.post h4,article.post p{color:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";filter:alpha(opacity=87);opacity:.87}
 
+/* Wayne Custom: Make the images auto-fit the browser */
+article.post img { max-width: 100%; height: auto; }
+
 #social-share-nav .share-btn h3,.share-btn{color:#fff}
 
 #header h2{font-size:inherit;height:inherit;line-height:inherit;padding:0 0 0 1.5em;white-space:nowrap}

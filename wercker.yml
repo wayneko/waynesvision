@@ -21,7 +21,7 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - arjen/hugo-build:
-        version: "0.15"
+        version: "0.47"
         theme: hugo-future-imperfect
         flags: --buildDrafts=true
 

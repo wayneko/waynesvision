@@ -4,6 +4,6 @@ title = "关于我 About Me"
 
 +++
 
-我是一名丈夫、父亲、技术文档工程师和翻译。欢迎来到我的博客！
+我是一名丈夫、父亲、技术文档工程师和翻译。欢迎切磋交流！
 
 I'm a husband, father, technical writer, and translator. Welcome to my blog!
